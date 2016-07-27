@@ -29,8 +29,8 @@ void setup()
   Keyboard.begin();
   Serial.println("hello");
 
-  myservo.attach(10);
-  myservo2.attach(11);
+  myservo.attach(11);
+  myservo2.attach(10);
   myservo.write(val);
   myservo2.write(val2);
 
